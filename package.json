@@ -1,0 +1,19 @@
+{
+  "name": "demo-sending-mail-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mickael",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemailer": "^6.1.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7"
+  }
+}
